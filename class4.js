@@ -8,9 +8,9 @@ function oddAvg(numbers){
     }
     return sum;
 }
-let sum2 = 0;
-let newAry = []
 function evenAvg(numbers){
+    let sum2 = 0;
+    let newAry = []
     for(let number of numbers){
         if(number % 2 ===0){
             sum2 = sum2 + number
